@@ -99,13 +99,13 @@ class Heizung(widgets.Widget):
         # Technisch wird hier das SVG geladen und auf die HTML-Seite gebracht. Ferner bekommt das SVG noch einen 
         # Namen, damit man es spaeter finden kann
         kwargs['detail'] = self.load(
-            "widgets/Heizung/detail.svg",
+            "widgets/heizung/detail.svg",
             {'class': 'heizungDetail'})
         # Hier wird das Aussehen des Digest-Widgets bestimmt. Das ist das Widget für den Mobile-Modus (Handy)
         # Bei diesem Widget sieht der Handy-Modus genau so aus wie der Tablet-Modus, trotzdem bekommt das 
         # Widget einen eigenen Namen
         kwargs['digest'] = self.load(
-            "widgets/Heizung/detail.svg",
+            "widgets/heizung/detail.svg",
             {'class': 'heizungDigest'})
         # Die oben definierten Items werden hier uebergeben, damit sie gelesen und aktualisiert werden koennen
         kwargs['attr'] = {'data-item': ' '.join(items)}
