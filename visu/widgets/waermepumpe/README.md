@@ -1,14 +1,17 @@
 # Wärmepumpenwidget
 
-![Wärmepumpenwidget-Anzeige](screen.png)
-Basis für das Widget war die Anzeige an einer Ochsner Wärmepumpe.
+![Wärmepumpenwidget-Anzeige](screen.png)<br>
+Basis für das Widget war die Anzeige an einer Ochsner Wärmepumpe.<br>
 Das Beispiel wurde von "mumpf" (Waldemar) und "RoyalTS" (Thorsten) erstellt.
 
 # Installation
 Einfach kompletten Ordner unter 
+
 > /data/callidomus/local/visu/widgets 
+
 kopieren.
 Und in der Konsole folgendes ausführen:
+
 > callidomus.gui build
 
 Danach Widget in der Visualisierung einfügen.
@@ -22,3 +25,4 @@ Parameter:
 * 'Rücklauf der WP' : Temperatur des Wärmepumpen Rücklaufs in °C
 * 'Status Kopfzeile' : Der Wert dieses Items wird in der Kopfzeile ausgegeben (z.B. Heizleistung)
 
+![Wärmepumpenwidget-Einrichtung](visu.png)
