@@ -1,6 +1,5 @@
 # Diese Imports muessen immer da sein
 import collections
-
 import widgets
 
 
@@ -10,19 +9,19 @@ class Heizung(widgets.Widget):
     # Als erstes muss man die API vom Widget beschreiben, also wie wird das Widget technisch aufgerufen
     api = {
         # Name des Widgets (derzeit nur Kleinbuchstaben und Zahlen)
-        'name': 'Heizung',
+        'name': 'heizung',
         # Beschreibung des Widgets
         'desc': 'Heizungswidget für Fussboden- und Warmwasserheizung (Vorlage: web2com Wärmepumpenanzeige)',
         'cat': 'Value',
         # Beispielcode für den Aufruf
         # Das folgende MUSS syntaktisch korrekt sein, da es für den Visu- und GUI-Build genutzt wird!
         'examples': [
-            {'code': "Heizung(item='demo.temperature', fbh='demo.rtr.set',\
+            {'code': "heizung(item='demo.temperature', fbh='demo.rtr.set',\
                 aussen='demo.rtr.mode', innen='demo.rtr.open', h2o='demo.rtr.set',\
-                name='Heizung', desc='Heizung')"},
-            {'code': "Heizung(item='demo.temperature', qvl='demo.rtr.set',\
+                name='heizung', desc='Heizung')"},
+            {'code': "heizung(item='demo.temperature', qvl='demo.rtr.set',\
                 qrl='demo.rtr.set',aussen='demo.rtr.mode', wpvl='demo.rtr.open',\
-                status='demo.rts.state', name='Heizung', desc='Heizung', showstatus=1)"}
+                status='demo.rts.state', name='heizung', desc='Heizung', showstatus=1)"}
         ],
     }
 

@@ -8,19 +8,19 @@ class Waermepumpe(widgets.Widget):
     # Als erstes muss man die API vom Widget beschreiben, also wie wird das Widget technisch aufgerufen
     api = {
         # Name des Widgets (derzeit nur Kleinbuchstaben und Zahlen)
-        'name': 'Waermepumpe',
+        'name': 'waermepumpe',
         # Beschreibung des Widgets
         'desc': 'Wäremepumpen-Widget (Vorlage: web2com Wärmepumpen)',
         'cat': 'Value',
         # Beispielcode für den Aufruf
         # Das folgende MUSS syntaktisch korrekt sein, da es für den Visu- und GUI-Build genutzt wird!
         'examples': [
-            {'code': "Waermepumpe(item='demo.temperature', qvl='demo.rtr.set',\
+            {'code': "waermepumpe(item='demo.temperature', qvl='demo.rtr.set',\
                 qrl='demo.rtr.set',aussen='demo.rtr.mode', wpvl='demo.rtr.open',\
-                name='Waermepumpe', desc='Wärmepumpe')"},
-            {'code': "Waermepumpe(item='demo.temperature', qvl='demo.rtr.set',\
+                name='waermepumpe', desc='Wärmepumpe')"},
+            {'code': "waermepumpe(item='demo.temperature', qvl='demo.rtr.set',\
                 qrl='demo.rtr.set',aussen='demo.rtr.mode', wpvl='demo.rtr.open',\
-                status='demo.rts.state', name='Waermepumpe', desc='Wärmepumpe', showstatus=1)"}
+                status='demo.rts.state', name='waermepumpe', desc='Wärmepumpe', showstatus=1)"}
         ],
     }
 
