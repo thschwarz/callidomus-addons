@@ -26,4 +26,7 @@ Parameter:
 * 'Status Kopfzeile' : Der Wert dieses Items wird in der Kopfzeile ausgegeben (z.B. Heizleistung)
 
 ![Wärmepumpenwidget-Einrichtung](visu.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 365994d9c247c65bf65f794a5fa408e80f27b01b
